@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Course Name: CIS133DA
+        file Name: inline_css.html
+        Author:Daniela Barragan-Cortazar
+        Date:September 1, 2026
+        Lesson: Lesson 5
+        Description: Demonstrates the use of inline CSS styling on various HTML elements.
+    -->
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniela Barragan-Cortazar">
+    <meta name="keywords" content="CSS, inline styles, HTML, web design, typography, color codes">
+    <meta name="description" content="A web page demostrating the application of inline CSS styles, font families, color definitions, and text alignments.">
+    
+     <title>Daniela's Inline CSS Page</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        
+        <!-- If "Trebuchet MS" is not installed on the user's system, the browser will fall back to "Arial", and then to any available generic "sans-serif" font. -->
+        <h1 style="color: #FFB6C1; font-size: 32px; font-family: 'Trebuchet MS', Times New Roman, sans-serif;font-weight: bold;">Applying Inline CSS </h1>
+        
+        <p style="font-weight: bold;">Appreciate every opportunity that comes their way because other's wish to have that opportunity at least once in their lifetime.-Mom</p>
+        <nav>
+            <a href="#">Placeholder Link</a>
+        </nav>
+    </header>
+    
+    <main>
+       
+        <h2>Understanging Font Families</h2>
+       
+        <p>Fonts are usually grouped into generic families based on similar characteristics. Generic families include serif, sans-serif, cursive, fantasy, and monospace.</p>
+        
+       <h2 style="color: teal;">Meaning of Understanding Generic Font and Colors</h2>
+        <p style="font: 1.2em sans-serif;">
+        
+        <p>Color is a useful tool in Web design. Effective use of color can improve readability and highlight important information.<br>
+            It can also help the viewer distinguish between various elements on a page.<br>
+        </p>
+    
+        <!-- Font shorthand property: font style (italic), length in pixels (18px), and monospace font stack -->
+        
+        <h2 style="color: rgb(147,112,219);">Ways to Define Color in Web Design</h2>
+        <p style="font: italic 18px monospace;">
+            Color on web pages can be indicated using several standard CSS formats. <br>
+            Color names use predefined keywords such as "Navy" or "Red" for easy selection. <br>
+            Hexadecimal codes represent red, green, and blue values using a six-character hex value preceded by a hash symbol. <br>
+            RGB notation defines precise color channels numerically from 0 to 255, while HSL specifies color values based on hue degrees, saturation percentages, and lightness percentages.<br>
+        </p>
+    </main>
+    
+     <!-- Right aligns all footer child elements using a single inline style on the container -->
+    
+     <footer style="position: fixed; bottom: 0; right: 0; padding: 10px;">
+    <p> Daniela Barragan-Cortazar&copy; 2026</p>
+</footer>
+</body>
+</html>
